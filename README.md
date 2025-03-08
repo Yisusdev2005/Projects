@@ -8,3 +8,6 @@ This is a simple program that I developed in python as a practice to measure my 
 As I am just starting in this world, it gives me great joy to share this little project to you.
 It may be missing a lot of things and features, but this is a start for me.
 I hope you like it and that it works for your manga translations :)
+
+# Executable
+Executable for Windows and Linux, works for both systems.
