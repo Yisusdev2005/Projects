@@ -188,12 +188,6 @@ class MangaTextExtractor:
             text = text.replace('  ', ' ')
         return text.strip()
 
-    def copy_to_clipboard(self):
-        text = self.results_text.get(1.0, tk.END)
-        self.root.clipboard_clear()
-        self.root.clipboard_append(text)
-        messagebox.showinfo("Información", "Texto copiado al portapapeles")
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = MangaTextExtractor(root)
