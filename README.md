@@ -1,5 +1,5 @@
 # Simple OCR for manga (Linux)
-https://github.com/Yisusdev2005/Simple-OCR-for-Manga/blob/main/captura.png
+![Screenshot](")
 
 # Description
 A simple program for Linux to extract the text of a vignette or text balloon from a manga panel.
