@@ -1,4 +1,5 @@
 # Simple OCR for manga (Linux)
+
 # Description
 A simple program for Linux to extract the text of a vignette or text balloon from a manga panel.
 Note: The images must already be saved in a folder or copied to clipboard to select them.
@@ -13,7 +14,7 @@ I hope you like it and that it works for your manga translations :)
 Executable only for Linux.
 
 # How to use it?
-Just unzip the .zip file, go into the dist folder and click on the executable “MangaOCR” and wait for it to start.
+Just unzip the .zip file, go into the dist folder and click on the executable “MangaTextExtractor” and wait for it to start.
 Note: You must have Python 3 installed on your computer.
 
 # Dependencies
@@ -21,12 +22,14 @@ Xclip: A Linux mechanism for managing files from the clipboard
 Tesseract OCR: This is the optical character recognition engine used by the program.
 
 On Linux: 
-> sudo apt-get install tesseract-ocr
-> sudo apt-get install xclip
+> sudo apt-get update && sudo apt-get install -y tesseract-ocr xclip libopencv-dev python3-tk
+
+# Python dependencies (install with pip)
+> pip install opencv-python-headless pillow numpy pytesseract
 
 # Japanese language for Tesseract
 On Linux: 
->sudo apt-get install tesseract-ocr-jpn tesseract-ocr-jpn-vert
+> sudo apt-get install tesseract-ocr-jpn tesseract-ocr-jpn-vert 
 
 # Support me!
 [Paypal](https://paypal.me/YisusM146?country.x=EC&locale.x=es_XC)
