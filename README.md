@@ -17,7 +17,8 @@ Executable only for Linux.
 # How to use it?
 Just unzip the .zip file, go into the dist folder and click on the executable “MangaTextExtractor” and wait for it to start.
 Note: You must have Python 3 installed on your computer.
-![til](https://github.com/Yisusdev2005/Simple-OCR-for-Manga/blob/main/Demostration.gif)
+![til](https://github.com/Yisusdev2005/Simple-OCR-for-Manga/blob/main/Demostration.gif) 
+![til]()
 
 # Dependencies
 Xclip: A Linux mechanism for managing files from the clipboard
