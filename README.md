@@ -13,7 +13,7 @@ I hope you like it and that it works for your manga translations :)
 Executable for Windows and Linux, works for both systems.
 
 # How to use it?
-Just unzip the .zip file, click on the executable “OCRmanga” and wait for it to start.
+Just unzip the .zip file, go into the dist folder and click on the executable “MangaTextExtractor” if you are on windows, but if you are on Linux click the executable “MangaOCR” and wait for it to start.
 Note: You must have Python 3 installed on your computer.
 
 # Dependencies
