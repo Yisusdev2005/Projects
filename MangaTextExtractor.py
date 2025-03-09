@@ -87,10 +87,6 @@ class MangaTextExtractor:
         # Área de texto
         self.results_text = tk.Text(content_frame, wrap=tk.WORD)
         self.results_text.pack(fill=tk.BOTH, expand=True)
-        
-        # Botón para copiar resultados
-        copy_btn = ttk.Button(content_frame, text="Copiar texto", command=self.copy_to_clipboard)
-        copy_btn.pack(pady=5)
 
     def paste_from_clipboard(self):
         # Obtiene una imagen del portapapeles
