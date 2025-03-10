@@ -72,10 +72,6 @@ class MangaTextExtractor:
         ttk.Checkbutton(preprocess_frame, text="Texto en formato lineal (sin saltos de línea)", 
                         variable=self.linear_text_var).pack(anchor=tk.W, padx=10)
         
-        # Botón para procesar
-        process_btn = ttk.Button(main_frame, text="Extraer texto", command=self.process_image)
-        process_btn.pack(pady=10)
-        
         # Área de resultados
         result_frame = ttk.LabelFrame(main_frame, text="Texto extraído")
         result_frame.pack(pady=10, fill=tk.BOTH, expand=True)
@@ -87,10 +83,6 @@ class MangaTextExtractor:
         # Área de texto
         self.results_text = tk.Text(content_frame, wrap=tk.WORD)
         self.results_text.pack(fill=tk.BOTH, expand=True)
-        
-        # Botón para copiar resultados
-        copy_btn = ttk.Button(content_frame, text="Copiar texto", command=self.copy_to_clipboard)
-        copy_btn.pack(pady=5)
 
     def paste_from_clipboard(self):
         # Obtiene una imagen del portapapeles
