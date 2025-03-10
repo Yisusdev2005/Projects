@@ -11,6 +11,8 @@ As I am just starting in this world, it gives me great joy to share this little 
 It may be missing a lot of things and features, but this is a start for me.
 I hope you like it and that it works for your manga translations :)
 
+Note: You must have Python 3 installed on your computer.
+
 # Dependencies
 Xclip: A Linux mechanism for managing files from the clipboard
 Tesseract OCR: This is the optical character recognition engine used by the program.
@@ -29,8 +31,8 @@ On Linux:
 Executable only for Linux.
 
 # How to use it?
-Just unzip the .zip file, go into the dist folder and click on the executable “MangaTextExtractor” and wait for it to start.
-Note: You must have Python 3 installed on your computer.
+Just unzip the .tar.gz file and click on the executable “MangaTextExtractor”, and wait for it to start.
+
 ![til](https://github.com/Yisusdev2005/Simple-OCR-for-Manga/blob/main/Demostration.gif)  
 
 ![til](https://github.com/Yisusdev2005/Simple-OCR-for-Manga/blob/main/Demostration_2.gif)
