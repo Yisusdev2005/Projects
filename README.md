@@ -3,6 +3,7 @@
 
 # Description
 A simple program for Linux to extract the text of a vignette or text balloon from a manga panel.
+
 Note: The images must already be saved in a folder or copied to clipboard to select them.
 
 # You may ask “What is this?”
