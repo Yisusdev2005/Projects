@@ -15,7 +15,8 @@ I hope you like it and that it works for your manga translations :)
 Note: You must have Python 3 installed on your computer.
 
 # Dependencies
-Xclip: A Linux mechanism for managing files from the clipboard
+Xclip: A Linux mechanism for managing files from the clipboard.
+
 Tesseract OCR: This is the optical character recognition engine used by the program.
 
 On Linux: 
